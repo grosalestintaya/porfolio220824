@@ -1,17 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <title>Boraninja</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
-<body>
-    <div class="header">
-        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem qui laborum, numquam, omnis 
-            odit asperiores ullam facilis quo enim quasi est ducimus possimus reiciendis recusandae 
-            aliquam velit a tempora facere.</h1>
+<body style="background-color: #333333;">
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1>George Rosales T.</h1>
+                <h2>Backend Developer</h2>
+                <div class="hero-icons">
+                    <a href="https://twitter.com/georgert" target="blank">
+                        <img src="./images/twitter-dark.svg" alt="Twitter">
+                    </a>
+                    <a href="https://github.com/georgert" target="blank">
+                        <img src="./images/github-dark.svg" alt="GitHub">
+                    </a>
+                    <a href="https://linkedin.com/in/georgert" target="blank">
+                        <img src="./images/linkedin-dark.svg" alt="LinkedIn">
+                    </a>
+                </div>
+                <p>Backend ninja que disfruta hacer que los datos cobren vida.</p>
+                <button onclick="location.href='cv.pdf '">Resumen</button>
+            </div>
+    
+            <div class="hero-right">
+                <div class="hero-image-container">
+                    <img src="./images/georgert.png" alt="George Rosales T.">
+                    <img class="luna-logo" src="/images/moon.svg" alt="luna">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>Sobre mí</h2>
+            <p>En mi tiempo libre, disfruto de la música y explorar nuevas herramientas de desarrollo.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projects-container">
+            <h2>Proyectos</h2>
+            <div class="project-list">
+                <a href="#nada" target="blank" class="project">
+                    <img src="./images/fancontent.png" alt="img">
+                    <h3>Fan Content</h3>
+                    <p>Organización de eventos</p>
+                </a>
+                <a href="#nada" target="blank" class="project">
+                    <img src="./images/polloloko.png" alt="Pollo_Loko">
+                    <h3>Pollo_Loko</h3>
+                    <p>Pollería Restaurant</p>
+                </a>
+                <a href="#nada" target="blank" class="project">
+                    <img src="./images/steambot.png" alt="Steam Bot">
+                    <h3>Steam Bot</h3>
+                    <p>Bot de tradeo Steam</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+   <section id="skills">
+    <div class="skills-container">
+        <h2>Habilidades</h2>
+        <div class="skills-group">
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>HTML</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>CSS</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>JavaScript</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>TypeScript</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Node</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Java</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Python</span>
+            </div>
+        </div>
+        <hr class="skills-divider">
+        <div class="skills-group">
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>React</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Angular</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Vue</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Tailwind CSS</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Ionic</span>
+            </div>
+        </div>
+
+        <hr class="skills-divider">
+
+        <div class="skills-group">
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Webpack</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Git</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Jest</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Bootstrap</span>
+            </div>
+        </div>
+
+        <hr class="skills-divider">
+
+        <div class="skills-group">
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Español</span>
+            </div>
+            <div class="skill">
+                <img src="/images/checkmark-dark.svg" alt="Checkmark Icon">
+                <span>Inglés</span>
+            </div>
+
+        </div>
+        </div>
     </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contactar</h2>
+            <form action="aun no hay scropt de envio o api" method="post">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email de destino" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="4" placeholder="Escribeme no tardaré en responder" required></textarea>
+                </div>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 George Rosales Tintaya</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+
+    
+ 
+    
+
+
     
 </body>
 </html>
